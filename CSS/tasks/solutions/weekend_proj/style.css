@@ -1,0 +1,8 @@
+
+.navigation .navbar{
+    margin: auto;
+    max-width: 25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
