@@ -1,0 +1,27 @@
+Project Goal======>
+
+	An Amazon page that has all possible front-end features
+
+Project Design======>
+	Using CSS Grid and Flexbox to align the main components of the page
+	Main Components:
+		Product images with brief description
+		Price, product name, types
+		Payment and shipping section
+		Featured products and options
+		Product information and descriprion
+		Related searched items sections
+		Videos about the product
+		Review sections
+
+Project Total Availabe Time======>
+		16 toal hours
+		6 Hours on Friday
+		10 Hours on Saturday
+
+Project Milestones======>
+		1. Site Grid and boxes
+		2. Borders and alignements
+		3. Adding Pictures
+		4. Adding horizontal scrolls and picture magnification
+		5. Make site responsive
