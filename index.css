@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-areas:
+    'header header header'
+    'product product product'
+    'footer footer footer';
+    grid-gap: 1rem;
+}
+
+.header{
+    grid-area: header;
+}
+
+.product{
+    grid-area: product;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+.header, .product, .footer{
+    border: 1px #ccc solid;
+    padding: 0.5rem;
+}
