@@ -4,55 +4,21 @@
     box-sizing: border-box;
 }
 
-.container {
-    display: grid;
-    grid-template-areas:
-        'header header header'
-        'product product product'
-        'footer footer footer';
-    grid-gap: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-.header {
-    grid-area: header;
-}
-
-.product {
-    grid-area: product;
-}
-
-.footer {
-    grid-area: footer;
-}
-
-/* Navigation Bar 1 */
+/* Nav Bars */
 .nav-1{
     background-color: #131921;
-    color: #fff;
-    padding: 6px;
-}
-
-.nav-1 ul{
     display: flex;
-    justify-content: space-between;
+    flex-flow: row nowrap;
     align-items: center;
-    list-style-type: none;
+    height: 60px;
 }
 
-.nav-1 a{
-    text-decoration: none;
-    color: #fff;
+.nav-1 .logo{
+    display: inline-block;
+    background-image: url(https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
+    background-position: -10px -51px;
+    width: 97px;
+    height: 30px;
 }
 
-.nav-1 img{
-    max-width: 10vw;
-}
-
-/* JUST FOR DESIGN */
-.header,
-.product,
-.footer {
-    border: 1px #ccc solid;
-    /* padding: 0.5rem; */
-}
