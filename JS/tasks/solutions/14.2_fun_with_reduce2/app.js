@@ -20,6 +20,11 @@ function countOnlyVowels(str) {
     }, {});
 };
 
-function addKeyAndValue(){
-    
+function addKeyAndValue(obj, key, val){
+    return obj.reduce((objArr, currentObj) => {
+        let tempObj = currentObj;
+        tempObj[key] = val;
+        objArr.push(tempObj);
+        return objArr;
+    }, []);
 }
