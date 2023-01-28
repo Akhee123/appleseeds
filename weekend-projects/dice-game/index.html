@@ -13,26 +13,49 @@
 
     <!-- Screen 1 -->
     <section id="screen-1">
-        <div id="instructions">
-            <p><h1>Game Instructions</h1><br></p>
-        </div>
-        <div id="score-input">
-            <input type="text">
-        </div>
+        <p>
+        <h1>Game Instructions</h1><br>
+        <ul>
+            <li>In your turn, roll the dice at least once and accumulate the result in "current"</li>
+            <li>You can roll multiple times and click hold to save points and end the turn</li>
+            <li>If you get 6-6, you lose all points from current and the turn will go to your opponent</li>
+            <li>If you reach exactly the target score, you win. If you pass it, you lose</li>
+        </ul>
+        </p>
+        <input type="number" name="Set Score" min="2" max="100">
+        <button type="Button">Start Game!</button>
     </section>
 
     <!-- Screen 2 -->
     <section id="screen-2">
-        <div id="player-1"></div>
-        <div id="dice"></div>
-        <div id="plater-2"></div>
+        <div id="player-1">
+            <h1>Player 1</h1>
+            <div class="current">
+                <h2>Current</h2>
+            </div>
+            <h1 class="score">0</h1>
+        </div>
+        <div id="dice">
+            <button type="button" id="new-game">New Game</button>
+            <img id="dice-1">
+            <img id="dice-2">
+            <button type="button" id="roll-dice">Roll Dice</button>
+            <button type="button" id="hold">Hold</button>
+        </div>
+        <div id="player-2">
+            <h1>Player 2</h1>
+            <div class="current">
+                <h2>Current</h2>
+            </div>
+            <h1 class="score">0</h1>
+        </div>
     </section>
 
     <!-- Screen 3 -->
-    <section id="screen-3">
+    <!-- <section id="screen-3">
         <div id="winner"></div>
         <div id="play-again"></div>
-    </section>
+    </section> -->
     <script src="index.js"></script>
 </body>
 
