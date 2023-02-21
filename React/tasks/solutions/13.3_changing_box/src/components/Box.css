@@ -1,0 +1,8 @@
+.box {
+    width: 5vw;
+    height: 10vh;
+}
+
+.round{
+    border-radius: 50%;
+}
