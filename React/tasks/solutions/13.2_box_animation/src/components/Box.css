@@ -1,0 +1,22 @@
+.box {
+    width: 5vw;
+    height: 10vh;
+    background-color: lightblue;
+    animation-name: slide;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+
+.disappear {
+    display: none;
+}
+
+@keyframes slide {
+    from {
+        margin-left: 0;
+    }
+
+    to {
+        margin-left: 80vw;
+    }
+}
