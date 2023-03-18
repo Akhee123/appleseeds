@@ -7,3 +7,9 @@ fs.renameSync('copy.txt', 'rename.txt'); // Rename
 
 console.log(fs.readdirSync('./')); // List content of dir
 
+
+// My Method
+
+function myMethod() {
+    
+}
